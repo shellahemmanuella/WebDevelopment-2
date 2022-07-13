@@ -4,22 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="background-color:blue ;color:black ;font-size:larger">WEB DEVELOPMENT
+    <title style="background-color:blue ;color:black ;font-size:50px">WEB DEVELOPMENT
     </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
-<body>
-    <div style="background-color:rgb(255, 47, 227); align-content:center;font-weight:bolder;">
-    <nav style="background-color:rgb(174, 0, 255) ;color:black ;font-size:30px;flex-direction:initial;justify-content:space-around; display:flex;padding: 3%;">
-            <a href="home.html">HOME</a>
-             <a href="aboutus.html">ABOUT</a>
-             <a href="contacts.html">CONTACT</a>
-             <a href="Faq.html">FAQ</a>
+<body style="background-color:black; align-content:center;font-weight:bolder;margin-bottom: 20px;">
+    
+     
+        <!--navbar-->
+        <div class="nav-bar">
+    <nav class="nav"    style="background-color:rgb(174, 0, 255)  ;font-size:30px;flex-direction:initial;justify-content:space-around; display:flex;padding: 3%;">
+            <a style="color: white;text-decoration:none"        href="home.html"><i class="fa-solid fa-house"></i>HOME</a>
+             <a style="color: white;text-decoration:none" href="aboutus.html"><i class="fa-solid fa-address-card"></i>ABOUT US</a>
+             <a style="color: white;text-decoration:none" href="contacts.html"><i class="fa-solid fa-blender-phone"></i>CONTACT US</a>
+             <a style="color: white;text-decoration:none" href="webdev.html"><i class="fa-solid fa-computer"></i>WEB DEVELOPMENT</a>
         </nav>
-        <h1 style="font-size:60px; text-align: center;">WEB DEVELOPMENT</h1>
-    <p style="font-size:30px;text-align:center">Web development is surely the most interesting activity to carry you on
-        It is widely required in different fields.
-    </p>    
-    <img style="display:flex;flex-direction:row;height:600px;border-radius:5cm;float:inline-start;padding: 3%;" src="./Images/3.jpg"  alt=""/>   
+    </div>
+
+<!--details-->
+        <h1 style="font-size:60px; text-align: center;color: white;"><u>WEB DEVELOPMENT</u></h1>
+         <!--images-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-8 "></div>
+                <div class="img_item">
+                <div class="col-lg-4 col-md-3 col-sm-3">
+                    <div class="box">
+                    <img   src="./Images/3-removebg-preview.png" id="img_img"  alt=""> 
+                    
+                    <p style="color:white">BIG IDEAS, CREATIVE PEOPLE, NEW TECHNOLOGY.<br>We create innovative web sites.<br>Bring your ideas to life through our<br><strong> Web Development</strong> Session.
+                    </p>
+                    
+                </div>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+        <div class="box">
+        <img src="./images/4-removebg-preview.png" id="img_img" alt="">
+        
+        <p style="color:white">WE THINK BIG IN TECHNOLOGY.<br>We have develop experiences thus better service.<br>That horizon might be closer than you think if you come to us.
+        </p>
+        
+          </div>          
+    </div>
+
+<div class="col-lg-4 col-md-3 col-sm-3">
+    <div class="box">
+    <img src="./images/5-removebg-preview.png" id="img_img"  alt="">
+    
+    <p style="color:white">BE GOOD WITH YOUR BRAINS SO YOU CAN BE EXPRESSIVE WITH YOUR SPACE.<br>We use our brains effectively to bringout the best.We save time for you.
+    </p>
+    
+    </div>
+     </div>   
+     <div class="col-lg-4 col-md-3 col-sm-3">
+        <div class="box">
+        <img   style="background-color: burlywood;"src="./images/2.jpg" id="img_img"  alt="">
+        <p style="color:white">WEB DEVELOPMENT TEAM WITH THE BEST SKILLS.<br>END HUNGER FOR WEB DEVELOPMENT.<br>With our services.
+        </p>
+        
+         </div>               
 </div>
+            </div>
+</div>
+
+
+
+</div>
+<!--h2-->
+<h2 style="color:white">
+    WHY CHOOSE US?
+</h2>
+<div class="content">
+<p style="color:white">
+    We are centered on creative problem -solving and continuous innovation.<br>We offer professional web development with fast delivery at<br>affordable cost.
+</p>
+</div>
+<div class="btn_Info">
+<a href="http://youtube.com"><button style="background-color: blueviolet;color:aliceblue;">For more Info </button></a>
+</div>
+
+<!--footer-->
+
+<footer class="footer" style="background-color: burlywood;"><p style="color: black;">&copy; DESIGNED BY: SHELLAH NSUBUGA</p>
+ 
+    <button style="text-align:center" id="for">SUBMIT FOR MORE INFO</button>
+  <img class="img1" src="./images/hero-banner-image-websites-apps_1302-7433-removebg-preview.png" alt="">
+  
+  <div class="form">
+    <form action="page.html" autocomplete="on">
+      <lable>ENTRE FIRST NAME:</lable> <input type="text" id="fname" name="first_name">
+      <br><label>GENDER:</label> <input type="radio"id="gender"name="gender"><label>FEMALE</label> 
+       <input type="radio" id="gender"name="gender"><label>MALE</label>
+       <br><input type="checkbox" id="cbox"name="css"><label>CSS</label>
+       <br><input type="checkbox" id="cbox"name="py"><label>PYTHON</label>
+      <br><input type="checkbox" id="cbox"name="java"><label>JAVASCRIPT</label> 
+      <br><input type="submit" id="smit"name="submit">
+  
+  
+   </form>
+  </div>
+        
+  
+  
+  </footer>
+
+        
+
+ 
+
+
+
+   
 </body>
 </html>

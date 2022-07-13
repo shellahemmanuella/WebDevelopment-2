@@ -1,0 +1,19 @@
+.body{ align-content:center;font-weight:bolder;color:white;}
+
+
+.nav
+{background-color:rgb(174, 0, 255) ;color:black ;font-size:30px;flex-direction:initial;justify-content:space-around; display:flex;padding: 3%;}
+
+
+.h1{text-align:left; font-size:28px;color:white}
+.p1{font-size:25px;color:burlywood}
+.h3{text-align:left; font-size:28px;color:white}
+.li{font-size:25px;color:burlywood}
+#footer
+.h1{text-align:center;padding:2%;color:white}
+.iv1{background-color: burlywood;}
+.form{color:black;text-align: left;font-size: 25px;}
+#smit{color:white;background-color: blueviolet;padding:2px;font-size: 10px;width:100px;height:20px;}
+#fname{background-color: blueviolet;color: white;}
+#for{background-color: black;color:burlywood;}
+.img1{float:right;width:450px;height:220px;padding-bottom: 5px;}
