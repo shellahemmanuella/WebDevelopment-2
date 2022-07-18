@@ -1,28 +1,97 @@
-.body{ align-content:center;font-weight:bolder;color:white;}
-.iv{background-color: black;}
+.body {
+  align-content: center;
+  font-weight:bold;
+  color: white;
+}
+.iv {
+  background-color: rgb(218, 209, 209);
+}
 
+.nav {
+  background-color: rgb(174, 0, 255);
+  color: black;
+  font-size: 30px;
+  flex-direction: initial;
+  justify-content: space-around;
+  display: flex;
+  padding: 3%;
+}
 
+.h2 {
+  font-size: 28px;
+  text-align: center;
+  color: blueviolet;
+}
+.p2 {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+.p1 {
+  color: black;
+}
 
+.btn-more {
+  cursor: pointer;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+.link-image {
+  text-align: center;
+  border-radius: 100px;
+  padding-right: 1%;padding-bottom: 0%;
+}
+.btn {
+  text-align: center;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+  padding: 2px;
+}
 
-.nav
-{background-color:rgb(174, 0, 255) ;color:black ;font-size:30px;flex-direction:initial;justify-content:space-around; display:flex;padding: 3%;}
-
-.h2{font-size:28px; text-align:center;}
-.p2{ font-size:25px; text-align:center;color:burlywood}
-.p1{color:burlywood}
-
-.btn-more{cursor: pointer;padding:5px;color:white;text-align: center;text-decoration: none;font-size: 15px;}
-.link-image{text-align:center;border-radius: 100px;padding-right: 1%;}
-.btn{text-align: center;font-size: 25px;font-family: Georgia, 'Times New Roman', Times, serif;color:white;background-color: black;padding: 2px;}
-
-.footer{background-color: black;}
-.footer p{color:white;text-align: center;}
-.h1{text-align:center;padding:2%;color:white}
-.iv1{background-color: burlywood;}
-.form{color:black;text-align: left;font-size: 25px;}
-#smit{color:white;background-color: blueviolet;padding:2px;font-size: 10px;width:100px;height:20px;}
-#fname{background-color: blueviolet;color: white;}
-#for{background-color: black;color:burlywood;}
-.img1{float:right;width:450px;height:220px;padding-bottom: 5px;}
-
-
+.footer {
+  background-color: black;margin-bottom: 0%;
+}
+.footer p {
+  color: white;
+  text-align: center;
+}
+.h1 {
+  text-align: center;
+  padding: 2%;
+  color: blueviolet;
+}
+.iv1 {
+  background-color: burlywood;
+}
+.form {
+  color: black;
+  text-align: left;
+  font-size: 15px;
+}
+#smit {
+  color: white;
+  background-color: blueviolet;
+  padding: 2px;
+  font-size: 10px;
+  width: 100px;
+  height: 20px;
+}
+#fname {
+  background-color: blueviolet;
+  color: white;
+}
+#for {
+  background-color: black;
+  color: burlywood;
+}
+.img1 {
+  float: right;
+  width: 450px;
+  height: 220px;
+  padding-bottom: 5px;
+}

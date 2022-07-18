@@ -1,40 +1,94 @@
+.body {
+  align-content: center;
+  font-weight:bold;
+  color: white;
+}
+.iv {
+  background-color: rgb(218, 209, 209);
+}
 
+#nav bar .nav {
+  background-color: rgb(174, 0, 255);
+  color: black;
+  font-size: 30px;
+  flex-direction: initial;
+  justify-content: space-around;
+  display: flex;
+  padding: 3%;
+}
+.h1{color:blueviolet}
+#links .fa-solid fa-house {
+  color: white;
+  text-decoration: none;
+}
+.fa-solid fa-address-card {
+  color: white;
+  text-decoration: none;
+}
+.fa-solid fa-blender-phone {
+  color: white;
+  text-decoration: none;
+}
+.fa-solid fa-computer {
+  color: white;
+  text-decoration: none;
+}
 
-.body{ align-content:center;font-weight:bolder;color:white;}
-.iv{background-color: black;}
+.img {
+  height: 500px;
+  width: 800px;
+  float: right;
+}
 
-#nav bar
-.nav
-{background-color:rgb(174, 0, 255) ;color:black ;font-size:30px;flex-direction:initial;justify-content:space-around; display:flex;padding: 3%;}
+.style {
+  text-align: left;
+  font-size: 25px;
+  color: black;
+}
 
-#links
-.fa-solid fa-house
-{color: white;text-decoration:none}
-.fa-solid fa-address-card
-{color: white;text-decoration:none}
-.fa-solid fa-blender-phone
-{color: white;text-decoration:none}
-.fa-solid fa-computer
-{color: white;text-decoration:none}
+.li {
+  text-align: left;
+  font-size: 25px;
+  color: black;
+}
 
-
-.img 
-{height: 500px;width:800px;float: right;}
-
-
-.style{text-align:left;font-size: 25px;color: burlywood; }
-
-
-.li
-{text-align: left;font-size: 25px;color: burlywood;}
-
-
-.p{text-align: left;font-size: 25px;color: burlywood;}
-#footer
-.h1{text-align:center;padding:2%;color:white}
-.iv1{background-color: burlywood;}
-.form{color:black;text-align: left;font-size: 25px;}
-#smit{color:white;background-color: blueviolet;padding:2px;font-size: 10px;width:100px;height:20px;}
-#fname{background-color: blueviolet;color: white;}
-#for{background-color: black;color:burlywood;}
-.img1{float:right;width:450px;height:220px;padding-bottom: 5px;}
+.p {
+  text-align: left;
+  font-size: 25px;
+  color: black;
+}
+#footer .h1 {
+  text-align: center;
+  padding: 2%;
+  color: white;
+}
+.iv1 {
+  background-color: burlywood;
+}
+.form {
+  color: black;
+  text-align: left;
+  font-size: 15px;
+}
+#smit {
+  color: white;
+  background-color: blueviolet;
+  padding: 2px;
+  font-size: 10px;
+  width: 100px;
+  height: 20px;
+}
+#fname {
+  background-color: blueviolet;
+  color: white;
+}
+#for {
+  background-color: black;
+  color: burlywood;
+}
+.img1 {
+  float: right;
+  width: 450px;
+  height: 220px;
+  padding-bottom: 5px;
+}
