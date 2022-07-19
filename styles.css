@@ -4,7 +4,7 @@
   color: white;
 }
 .iv {
-  background-color: rgb(218, 209, 209);
+  background: url(./images/dandelion-923221_960_720.jpg);background-repeat: no-repeat; background-size: cover;
 }
 
 
@@ -37,7 +37,7 @@
   display: flex;
 }
 .img_item p {
-  color:  rgb(218, 209, 209);
+  
   font-size: 20px;
   align-items: center;
 }
@@ -49,7 +49,7 @@
   height: 250px;
 }
 .img_item .box {
-  background-color:  rgb(218, 209, 209);
+  
   box-shadow: 10px;
   box-sizing: content-box;
   box-decoration-break: calc(10px, 5px, 5px, 10px);

@@ -4,8 +4,9 @@
   color: white;
 }
 .iv {
-  background-color: rgb(218, 209, 209);
+  background: url(./images/dandelion-923221_960_720.jpg);background-repeat: no-repeat; background-size: cover;
 }
+
 
 .nav {
   background-color: rgb(174, 0, 255);
